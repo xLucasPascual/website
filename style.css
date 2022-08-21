@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+}
+
+/* Header */
+
+header {
+    position: fixed;
+    height: 75px;
+    width: 100%;
+    z-index: 10;
+    background-color: red;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+nav {
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: green;
+}
+
+/* Sections */
+
+.sections {
+
+}
+
+/* Home */
+
+#home {
+    width: 100%;
+    height: 300px;
+    background-color: orange;
+}
+
+#home img {
+    width: 100%;
+    max-height: 300px;
+}
+
+/* About */
+
+#about {
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+}
+
+#about img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Projects */
+
+#projects {
+    width: 100%;
+    height: 300px;
+    background-color: green;
+}
+
+.project {
+    display: inline-block;
+}
+
+/* Contact */
+
+#contact {
+    width: 100%;
+    height: 300px;
+    background-color: blue;
+}
+
+#contact form {
+    border: 3px solid black;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: purple;
+}
